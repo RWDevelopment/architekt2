@@ -27,3 +27,11 @@ body > * {
 .card-title, .display-3 {font-family: 'Limelight', cursive;}
 .card-text {font-size:12px;border-top:2px solid #444;padding-top:8px;}
 .intro {border-top:2px solid #444;border-bottom:2px solid #444;}
+
+.lead::first-letter {
+  font-family: 'Limelight', cursive;
+  color: #444;
+  float: left;
+  font-size: 5em;
+  margin: 0 .2em 0 0;
+}
