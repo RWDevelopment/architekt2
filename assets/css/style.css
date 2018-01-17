@@ -25,5 +25,5 @@ body > * {
     pointer-events: none;
     background: rgba(255, 255, 255, 0.75);
 }
-.card-ttitle {font-family: 'Georgia', sans-serif;font-weight:bold;}
+.card-title {font-family: 'Georgia', sans-serif;font-weight:bold;}
 .card-text {font-size:12px;border-top:2px solid #444;padding-top:8px;}
