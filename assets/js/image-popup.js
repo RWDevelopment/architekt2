@@ -6,7 +6,7 @@ $(".img-popup").on('click', function() {
     $('.img-overlay').css('transform', 'translate(-50%, 0) scale(1, 1)');
 });
 
-$(".overlay-dark").on('click',function() {
+$(".img-popup").on('click',function() {
     $(".overlay-dark").hide();
     $('.img-overlay').css('opacity', 0);
     setTimeout(function() {
