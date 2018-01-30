@@ -3,9 +3,9 @@ html,body {height:100%;
   font-family: 'Nunito Sans', sans-serif;
 }
 body > * {
-  background-size: cover;
+  
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  
   background-position: center;
 }
 .cover {
