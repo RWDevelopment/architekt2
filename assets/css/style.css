@@ -8,7 +8,7 @@ body > * {
 }
 
 body p {font-family: 'Geomanist Light';}
-body h1,h2,h3,h4,h5 ( font-family: 'Geomanist Black';)
+body > h1,h2,h3,h4,h5 {font-family: 'Geomanist Black', sans-serif;}
 
 .cover {
   background-image: url(../img/bg.jpg);
