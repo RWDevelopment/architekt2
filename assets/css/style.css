@@ -1,6 +1,6 @@
 html,body {height:100%;
   scroll-behavior:smooth;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Geomanist Black', sans-serif;
 }
 body > * {
   
@@ -59,4 +59,9 @@ body > * {
   height: 100%;
   z-index: 5;
   display: none;
+}
+
+@font-face { 
+  font-family: Geomanist Black; 
+  src: url('../fonts/Geomanis-Black.otf'); 
 }
