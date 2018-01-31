@@ -7,7 +7,7 @@ body > * {
   background-position: center;
 }
 
-p {font-family: 'Geomanist Light', sans-serif;}
+p {font-family: 'Geomanist Regular', sans-serif;}
 h1,h2,h3,h4,h5,.nav {font-family: 'Geomanist Black', sans-serif;}
 
 
@@ -66,6 +66,11 @@ h1,h2,h3,h4,h5,.nav {font-family: 'Geomanist Black', sans-serif;}
 @font-face { 
   font-family: Geomanist Black; 
   src: url('../fonts/Geomanist-Black.otf'); 
+}
+
+@font-face { 
+  font-family: Geomanist Regular; 
+  src: url('../fonts/Geomanist-Regular.otf'); 
 }
 
 @font-face { 
