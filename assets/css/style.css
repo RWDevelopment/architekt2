@@ -8,6 +8,8 @@ body > * {
 }
 
 body p {font-family: 'Geomanist Light';}
+body h1,h2,h3,h4,h5 ( font-family: 'Geomanist Black';)
+
 .cover {
   background-image: url(../img/bg.jpg);
 }
@@ -27,7 +29,7 @@ body p {font-family: 'Geomanist Light';}
     background: rgba(255, 255, 255, 0.75);
 }
 
-h1,h2,h3,h4,h5 ( font-family: 'Geomanist Black';)
+
 
 .card-text {font-size:12px;border-top:2px solid #444;padding-top:8px;}
 .intro {border-top:2px solid #444;border-bottom:2px solid #444;}
