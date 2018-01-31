@@ -7,8 +7,8 @@ body > * {
   background-position: center;
 }
 
-p {font-family: 'Geomanist Regular', sans-serif;}
-h1,h2,h3,h4,h5,.nav {font-family: 'Geomanist Black', sans-serif;}
+p {font-family: 'Geomanist Regular'}
+h1,h2,h3,h4,h5,.nav {font-family: 'Geomanist Black'}
 
 
 .opaque-overlay {
