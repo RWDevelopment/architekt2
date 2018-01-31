@@ -7,12 +7,9 @@ body > * {
   background-position: center;
 }
 
-body p {font-family: 'Geomanist Light';}
+body p {font-family: 'Geomanist Light', sans-serif;}
 body > h1,h2,h3,h4,h5 {font-family: 'Geomanist Black', sans-serif;}
 
-.cover {
-  background-image: url(../img/bg.jpg);
-}
 .opaque-overlay {
   overflow: hidden;
   position: relative; 
