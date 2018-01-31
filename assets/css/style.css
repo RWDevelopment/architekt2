@@ -66,6 +66,9 @@ h1,h2,h3,h4,h5 ( font-family: 'Geomanist Light';)
 @font-face { 
   font-family: Geomanist Black; 
   src: url('../fonts/Geomanist-Black.otf'); 
+}
+
+@font-face { 
   font-family: Geomanist Light; 
   src: url('../fonts/Geomanist-Light.otf'); 
 }
