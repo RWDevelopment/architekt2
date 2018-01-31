@@ -9,6 +9,8 @@ body > * {
 
 body p {font-family: 'Geomanist Light', sans-serif;}
 body > h1,h2,h3,h4,h5 {font-family: 'Geomanist Black', sans-serif;}
+h1,h2,h3,h4,h5 {font-family: 'Geomanist Black', sans-serif;}
+
 
 .opaque-overlay {
   overflow: hidden;
