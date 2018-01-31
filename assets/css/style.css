@@ -10,6 +10,8 @@ body > * {
 p {font-family: 'Geomanist Light'}
 h1,h2,h3,h4,h5,.nav {font-family: 'Geomanist Black'}
 .nav {font-family: 'Geomanist Bold'}
+.slogan {font-family: 'Geomanist Medium'}
+
 
 
 .opaque-overlay {
@@ -77,6 +79,11 @@ h1,h2,h3,h4,h5,.nav {font-family: 'Geomanist Black'}
 @font-face { 
   font-family: Geomanist Regular; 
   src: url('../fonts/Geomanist-Regular.otf'); 
+}
+
+@font-face { 
+  font-family: GeomanistMedium; 
+  src: url('../fonts/Geomanist-Medium.otf'); 
 }
 
 @font-face { 
