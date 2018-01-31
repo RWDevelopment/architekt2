@@ -9,6 +9,7 @@ body > * {
 
 p {font-family: 'Geomanist Light'}
 h1,h2,h3,h4,h5,.nav {font-family: 'Geomanist Black'}
+.nav {font-family: 'Geomanist Bold'}
 
 
 .opaque-overlay {
@@ -66,6 +67,11 @@ h1,h2,h3,h4,h5,.nav {font-family: 'Geomanist Black'}
 @font-face { 
   font-family: Geomanist Black; 
   src: url('../fonts/Geomanist-Black.otf'); 
+}
+
+@font-face { 
+  font-family: Geomanist Bold; 
+  src: url('../fonts/Geomanist-Bold.otf'); 
 }
 
 @font-face { 
