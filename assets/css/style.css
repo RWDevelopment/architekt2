@@ -12,6 +12,7 @@ h1,h2,h3,h4,h5,.nav {font-family: 'Geomanist Black'}
 .nav {font-family: 'Geomanist Bold'}
 .slogan {font-family: 'Geomanist Medium'}
 .title {font-family: 'Geomanist Regular'}
+.text {font-family: 'Geomanist Light Italic'}
 
 
 
@@ -90,4 +91,9 @@ h1,h2,h3,h4,h5,.nav {font-family: 'Geomanist Black'}
 @font-face { 
   font-family: Geomanist Light; 
   src: url('../fonts/Geomanist-Light.otf'); 
+}
+
+@font-face { 
+  font-family: Geomanist Light Italic; 
+  src: url('../fonts/Geomanist-Light-Italic.otf'); 
 }
