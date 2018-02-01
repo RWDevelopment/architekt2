@@ -102,10 +102,8 @@ h1,h2,h3,h4 {font-family: 'Geomanist Black'}
 
 
 .bg-text {
-    background-color: #aaa;
-    padding: 20px 20px 100px 20px;
+    background-color: #fff;
     position: relative;
-    width: 400px;
     overflow: hidden;
 }
 .bg-text::after {
