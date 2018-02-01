@@ -8,8 +8,7 @@ body > * {
 }
 
 p {font-family: 'Geomanist Light'}
-h1,h2,h3,h4,h5,.nav {font-family: 'Geomanist Black'}
-.nav {font-family: 'Geomanist Bold'}
+h1,h2,h3,h4,h5 {font-family: 'Geomanist Black'}
 .slogan {font-family: 'Geomanist Medium'}
 .title {font-family: 'Geomanist Regular'}
 .text {font-family: 'Geomanist Light Italic'}
