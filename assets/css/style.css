@@ -114,5 +114,6 @@ h1,h2,h3,h4 {font-family: 'Geomanist Black'}
     display: block;
     font-size: 80px;
     line-height: 1;
-   transform:translate(-50%, -50%);
+    position: absolute;
+    transform:translate(-50%, -50%);
 }
