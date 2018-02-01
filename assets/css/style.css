@@ -107,10 +107,10 @@ h1,h2,h3,h4 {font-family: 'Geomanist Black'}
     overflow: hidden;
 }
 .bg-text::after {
-    color: #eee;
+    color: #f8f8f8;
     content: attr(data-bg-text);
     display: block;
-    font-size: 100px;
+    font-size: 140px;
     font-family: 'Geomanist Black';
     letter-spacing:2px;
     position: absolute;
