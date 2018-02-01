@@ -104,7 +104,6 @@ h1,h2,h3,h4 {font-family: 'Geomanist Black'}
 .bg-text {
     background-color: transparent;
     overflow: hidden;
-    height:400px;
 }
 .bg-text::after {
     color: #fafafa;
