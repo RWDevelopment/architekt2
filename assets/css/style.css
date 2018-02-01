@@ -7,10 +7,10 @@ body > * {
   background-position: center;
 }
 
-body {font-family: 'Geomanist Regular'}
+body {font-family: 'Geomanist Light'}
 h1,h2,h3,h4 {font-family: 'Geomanist Black'}
 .slogan {font-family: 'Geomanist Medium'}
-.title,h5 {font-family: 'Geomanist Regular'}
+.nav,.title,h5 {font-family: 'Geomanist Regular'}
 .text {font-family: 'Geomanist Light Italic'}
 
 
