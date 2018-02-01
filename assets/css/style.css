@@ -114,7 +114,7 @@ h1,h2,h3,h4 {font-family: 'Geomanist Black'}
     font-family: 'Geomanist Medium';
     letter-spacing:2px;
     position: absolute;
-    top:50%;
+    top:52%;
     left:50%;
     transform:translate(-50%, -50%);
     z-index:-1;
