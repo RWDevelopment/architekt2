@@ -111,11 +111,11 @@ h1,h2,h3,h4 {font-family: 'Geomanist Black'}
     color: #fafafa;
     content: attr(data-bg-text);
     display: block;
-    font-size: 260px;
+    font-size: 160px;
     font-family: 'Geomanist Medium';
     letter-spacing:6px;
     position: absolute;
-    top:52%;
+    top:50%;
     left:50%;
     transform:translate(-50%, -50%);
     z-index:-1;
