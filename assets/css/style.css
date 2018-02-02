@@ -13,7 +13,7 @@ h1,h2,h3,h4 {font-family: 'Geomanist Black'}
 .nav,.title,h5 {font-family: 'Geomanist Regular'}
 .text {font-family: 'Geomanist Light Italic'}
 
-
+.bg-gray {background:#ccc;}
 
 .opaque-overlay {
   overflow: hidden;
