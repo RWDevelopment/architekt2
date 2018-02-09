@@ -84,7 +84,7 @@
 						<img src="assets/img/1.jpg" class="img-fluid px2" />
 					</div>
         </div>
-				 
+	    <div id="dots"></div>			 
 	  
 	    
 	    
@@ -120,6 +120,7 @@ $(document).ready(function(){
 $('.responsive').slick({
   arrows:false,	
   dots: true,
+  appendDots: $('#dots'),
   infinite: false,
   speed: 300,
   slidesToShow: 4,
