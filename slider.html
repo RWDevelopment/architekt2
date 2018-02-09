@@ -84,8 +84,10 @@
 						<img src="assets/img/2.jpg" class="img-fluid px2" />
 					</div>
         </div>
-	    <button type="button" class="btn btn-primary" id="left">L</button><button type="button" class="btn btn-primary" id="right">P</button>			 
-	  
+	    <div class="mx-auto">
+	    <button type="button" class="btn btn-primary" id="left">L</button>
+	    <button type="button" class="btn btn-primary" id="right">P</button>			 
+	    </div>
 	    
 	    
       </div>
@@ -119,6 +121,7 @@ $(document).ready(function(){
 	
 $('.responsive').slick({
   nextArrow: $('#left'),
+  prevArrow: $('#right'),
   arrows:true,	
   autoplay: true,
   autoplaySpeed:3000,
