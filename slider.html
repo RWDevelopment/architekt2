@@ -172,9 +172,10 @@ $('.responsive').slick({
     // instead of a settings object
   ]
 });
+var p = $('.slick-prev');
+var position = p.position();	
 	
-	
-$('.slick-prev').offset().top - $('.heading').height();
+$('.slick-prev').position.top - $('.heading').height();
 $('.slick-next').offset().top - $('.heading').height();
 	
 });	
