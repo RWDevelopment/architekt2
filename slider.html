@@ -76,35 +76,35 @@
         <div class="col-md-12 responsive">
                                         <div>
 						<img src="assets/img/2.jpg" class="img-fluid px2" />
-						<p class="lead font-weight-bold text-center">Village Theatre</p>
+						<p class="lead heading font-weight-bold text-center">Village Theatre</p>
 					</div>
 					<div>
 						<img src="assets/img/2.jpg" class="img-fluid px2" />
-						<p class="lead font-weight-bold text-center">Village Theatre</p>
+						<p class="lead heading font-weight-bold text-center">Village Theatre</p>
 					</div>
 					<div>
 						<img src="assets/img/2.jpg" class="img-fluid px2" />
-						<p class="lead font-weight-bold text-center">Village Theatre</p>
+						<p class="lead heading font-weight-bold text-center">Village Theatre</p>
 					</div>
 					<div>
 						<img src="assets/img/2.jpg" class="img-fluid px2" />
-						<p class="lead font-weight-bold text-center">Village Theatre</p>
+						<p class="lead heading font-weight-bold text-center">Village Theatre</p>
 					</div>
 					<div>
 						<img src="assets/img/2.jpg" class="img-fluid px2" />
-						<p class="lead font-weight-bold text-center">Village Theatre</p>
+						<p class="lead heading font-weight-bold text-center">Village Theatre</p>
 					</div>
 					<div>
 						<img src="assets/img/2.jpg" class="img-fluid px2" />
-						<p class="lead font-weight-bold text-center">Village Theatre</p>
+						<p class="lead heading font-weight-bold text-center">Village Theatre</p>
 					</div>
 					<div>
 						<img src="assets/img/2.jpg" class="img-fluid px2" />
-						<p class="lead font-weight-bold text-center">Village Theatre</p>
+						<p class="lead heading font-weight-bold text-center">Village Theatre</p>
 					</div>
 					<div>
 						<img src="assets/img/2.jpg" class="img-fluid px2" />
-						<p class="lead font-weight-bold text-center">Village Theatre</p>
+						<p class="lead heading font-weight-bold text-center">Village Theatre</p>
 					</div>
 	</div>    
 	 
@@ -125,6 +125,11 @@
 	<script>
 		
 $(document).ready(function(){
+	
+var heading = $('.heading').height();
+var positionprev = $('.slick-prev').position();
+	
+$('.slick-prev').css({'top': positionprev - heading});
  
 	
 $('.responsive').slick({
