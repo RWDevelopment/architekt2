@@ -264,11 +264,16 @@ $('.slider2').slick({
 
 	
 var head_height = $('.heading').innerHeight();
-var pos = $('.slick-next').offset().top;
-var new_pos = pos - head_height;	
-
-$(".slick-next").offset({ top: new_pos + 26 });
-$(".slick-prev").offset({ top: new_pos + 26 });
+var pos1 = $('.slider1 .slick-next').offset().top;
+var pos2 = $('.slider2 .slick-next').offset().top;
+var new_pos1 = pos1 - head_height;	
+var new_pos2 = pos2 - head_height;
+	
+$(".slider1 .slick-next").offset({ top: new_pos1 + 26 });
+$(".slider1 .slick-prev").offset({ top: new_pos1 + 26 });
+	
+$(".slider2 .slick-next").offset({ top: new_pos2 + 26 });
+$(".slider2 .slick-prev").offset({ top: new_pos2 + 26 });
 	
 });	
 		
