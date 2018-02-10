@@ -107,7 +107,7 @@
 						<p class="lead heading font-weight-bold text-center">Village Theatre</p>
 					</div>
 	</div>    
-	 
+	<p id="pos"></p> 
 	    
       </div>
     </div>  
@@ -131,6 +131,9 @@ var prev = $('.slick-prev');
 var position = prev.position() - heading;	
 		
 $('.slick-prev').css({'top': position.top});
+	
+	
+$( "#pos" ).text( "top: " + position );
  
 	
 $('.responsive').slick({
