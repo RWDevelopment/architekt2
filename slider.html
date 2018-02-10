@@ -125,15 +125,9 @@
 	<script>
 		
 $(document).ready(function(){
-	
-var heading = $('.heading').height();
-var prev = $('.slick-prev');
-var position = prev.position();	
 		
-$('.slick-prev').css({'top': position.top - heading});
-	
-	
-$( "#pos" ).text( "top: " + position );
+$('.slick-prev').offset().top - $('.heading').offset().top;
+$('.slick-next').offset().top - $('.heading').offset().top;
  
 	
 $('.responsive').slick({
