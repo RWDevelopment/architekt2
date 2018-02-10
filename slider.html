@@ -179,7 +179,8 @@ var pos = $('.slick-next').offset().top;
 var new_pos = pos - head_height;	
 $('#position').text(pos +" "+head_height+" "+new_pos);
 $(".slick-next").offset({ top: new_pos + 12 });
-
+$(".slick-prev").offset({ top: new_pos + 12 });
+	
 });	
 		
 </script>
