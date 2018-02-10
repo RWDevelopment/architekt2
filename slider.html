@@ -128,9 +128,9 @@ $(document).ready(function(){
 	
 var heading = $('.heading').height();
 var prev = $('.slick-prev');
-var position = prev.position() - heading;	
+var position = prev.position();	
 		
-$('.slick-prev').css({'top': position.top});
+$('.slick-prev').css({'top': position.top - heading});
 	
 	
 $( "#pos" ).text( "top: " + position );
