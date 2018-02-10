@@ -107,7 +107,7 @@
 						<p class="lead heading font-weight-bold text-center">Village Theatre</p>
 					</div>
 	</div>    
-	<p id="pos"></p> 
+	<p id="position"></p> 
 	    
       </div>
     </div>  
@@ -172,11 +172,11 @@ $('.responsive').slick({
     // instead of a settings object
   ]
 });
-var p = $('.slick-prev');
-var position = p.position();	
+
 	
-$('.slick-prev').position.top - $('.heading').height();
-$('.slick-next').offset().top - $('.heading').height();
+
+var pos = $('.slick-next').offset().top;
+$('#position').text(pos);
 	
 });	
 		
