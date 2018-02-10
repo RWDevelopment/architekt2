@@ -31,7 +31,7 @@ h1,h2,h3,h4 {font-family: 'Geomanist Black'}
     background: rgba(255, 255, 255, 0.75);
 }
 
-.px2 {padding-left:1px !important;padding-right:1px !important;}
+.px2 {padding-left:2px !important;padding-right:2px !important;}
 .underline {font-size:22px;border-bottom:3px solid #000;padding-bottom:0px;}
 .card-text {font-size:13px;border-top:3px solid #000;padding-top:8px;}
 .intro {border-top:2px solid #444;border-bottom:2px solid #444;}
