@@ -127,9 +127,10 @@
 $(document).ready(function(){
 	
 var heading = $('.heading').height();
-var positionprev = $('.slick-prev').position();
-	
-$('.slick-prev').css({'top': positionprev.top - heading});
+var prev = $('.slick-prev');
+var position = prev.position();	
+		
+$('.slick-prev').css({'top': position.top - heading});
  
 	
 $('.responsive').slick({
