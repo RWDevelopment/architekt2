@@ -174,7 +174,7 @@ $('.responsive').slick({
 });
 
 	
-var head_height = $('.heading').height();
+var head_height = $('.heading').offset().top;
 var pos = $('.slick-next').offset().top;
 var new_pos = pos - head_height;	
 $('#position').text(pos +" "+head_height+" "+new_pos);
