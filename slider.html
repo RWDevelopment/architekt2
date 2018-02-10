@@ -126,9 +126,6 @@
 		
 $(document).ready(function(){
 		
-$('.slick-prev').offset().top - $('.heading').offset().top;
-$('.slick-next').offset().top - $('.heading').offset().top;
- 
 	
 $('.responsive').slick({
   arrows:true,
@@ -174,7 +171,11 @@ $('.responsive').slick({
     // settings: "unslick"
     // instead of a settings object
   ]
-});	
+});
+	
+	
+$('.slick-prev').offset().top - $('.heading').offset().top;
+$('.slick-next').offset().top - $('.heading').offset().top;
 	
 });	
 		
