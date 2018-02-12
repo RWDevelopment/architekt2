@@ -12,18 +12,35 @@
     <title>Architekt</title>
 	  
 	<style>
-	.blue {position:relative;width:400px;height:300px;}
-.blue:before, .blue:after, .blue>:first-child:before, .blue>:first-child:after {
-    position:absolute;
-    width:80px; height: 80px;
-    border-color:blue;
-    border-style:solid;
-    content: ' ';
+	.text
+{
+    border: 1px solid #00f;
+    height: 200px;
+    position: relative;
+    width: 200px;
 }
-.blue:before {top:0;left:0;border-width: 4px 0 0 4px}
-.blue:after {top:0;right:0;border-width: 4px 4px 0 0}
-.blue>:first-child:before {bottom:0;right:0;border-width: 0 4px 4px 0}
-.blue>:first-child:after {bottom:0;left:0;border-width: 0 0 4px 4px}	
+.text:after
+{
+     position:absolute;
+     top: 10%;
+     height: 80%;
+     content: "";
+     width: 99%;
+     left: -3px;
+     border-left: 5px solid #fff;
+     border-right: 5px solid #fff;
+}
+.text:before
+{
+     position:absolute;
+     left: 10%;
+     height: 99%;
+     content: " ";
+     width: 80%;
+     top: -3px;
+     border-top: 5px solid #fff;
+     border-bottom: 5px solid #fff;  
+}
 	</style>
 	  
 	  
@@ -70,7 +87,7 @@
     <div class="container">
       <div class="row">
 	      
-<div class="col-md-12 blue bg-white px-3">	
+<div class="col-md-12 text bg-white px-3">	
 	      
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
