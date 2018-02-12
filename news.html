@@ -10,6 +10,27 @@
     <link rel="stylesheet" href="assets/css/style.css">
    
     <title>Architekt</title>
+	  
+	<style>
+	.blue {position:relative;width:400px;height:300px;}
+.blue:before, .blue:after, .blue>:first-child:before, .blue>:first-child:after {
+    position:absolute;
+    width:80px; height: 80px;
+    border-color:blue;
+    border-style:solid;
+    content: ' ';
+}
+.blue:before {top:0;left:0;border-width: 4px 0 0 4px}
+.blue:after {top:0;right:0;border-width: 4px 4px 0 0}
+.blue>:first-child:before {bottom:0;right:0;border-width: 0 4px 4px 0}
+.blue>:first-child:after {bottom:0;left:0;border-width: 0 0 4px 4px}	
+	</style>
+	  
+	  
+	  
+	  
+	  
+	  
   </head>
   <body>
     
@@ -49,7 +70,7 @@
     <div class="container">
       <div class="row">
 	      
-<div class="col-md-12 border border-dark px-3">	
+<div class="col-md-12 blue bg-white px-3">	
 	      
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
