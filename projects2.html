@@ -124,8 +124,8 @@
 	$('a.carousel-link').hover(function(q){
           q.preventDefault();
           theslide = $(this).attr('data-to')-1;
-	  $('#projects').removeClass('invisible');
           $('#carouselExampleControls').carousel(theslide);
+	  $('#projects').removeClass('invisible');
         });        
     </script>
 	  
