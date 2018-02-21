@@ -82,7 +82,8 @@
 </div>
 
 <div class="container">
-	
+
+<div class="invisible" id="projects">
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -95,7 +96,6 @@
       <img class="d-block w-100 img-fluid" src="assets/img/1.jpg" alt="Third slide">
     </div>
   </div>
-  
 </div>
 	
   <div class="w-100 text-right py-2">	
@@ -110,7 +110,7 @@
     </svg>
   </a>
   </div>
-	
+</div>	
 	
 </div>
 
@@ -124,6 +124,7 @@
 	$('a.carousel-link').hover(function(q){
           q.preventDefault();
           theslide = $(this).attr('data-to')-1;
+	  $('#projects').removeClass('invisible');
           $('#carouselExampleControls').carousel(theslide);
         });        
     </script>
