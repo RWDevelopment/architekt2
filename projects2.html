@@ -121,7 +121,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
    
     <script>
-	$('a.carousel-link').click(function(q){
+	$('a.carousel-link').hover(function(q){
           q.preventDefault();
           theslide = $(this).attr('data-to')-1;
           $('#carouselExampleControls').carousel(theslide);
