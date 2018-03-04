@@ -172,9 +172,9 @@ $('#carouselExampleControls').on('slide.bs.carousel', function () {
   
 	
   var currentItem = $("#carouselExampleControls .carousel-item.active" );
-  var currentIndex = $("#carouselExampleControls .carousel-item").index(currentItem) + 1;
+  var currentIndex = $("#carouselExampleControls .carousel-item").index(currentItem);
 
-  var text = (currentIndex + 1) + " of " + total;
+  var text = (currentIndex) + " of " + total;
   $('#num').text(text);
 });
 	    
