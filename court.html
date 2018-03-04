@@ -171,10 +171,20 @@ var currentIndex = $('.carousel-item.active').index() + 1;
 $('#num').html(''+currentIndex+'/'+totalItems+'');
 
 
-$('#carouselExampleControls').on('slide.bs.carousel', function () {
+$('#carouselExampleControl').on('slide.bs.carousel', function () {
    currentIndex = $('.carousel-item.active').index() + 1;
    $('#num').html(''+currentIndex+'/'+totalItems+'');
-})	    
+})
+	    
+	    
+$('#carouselExampleControls').on('slid.bs.carousel', function () {
+  var carouselData = $(this).data('bs.carousel');
+  var currentIndex = carouselData.getActiveIndex();
+  var total = carouselData.$items.length;
+
+  var text = (currentIndex + 1) + " of " + total;
+  $('#num').text(text);
+});
 	    
 	  </script>
 	  
