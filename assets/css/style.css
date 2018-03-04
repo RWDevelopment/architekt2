@@ -176,3 +176,5 @@ h1,h2,h3,h4 {font-family: 'Geomanist Black'}
  transform: translateX(0);
  transform: translate3d(0, 0, 0);
 }
+
+.carousel-caption-below {color:#000;position:relative;}
