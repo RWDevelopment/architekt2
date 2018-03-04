@@ -91,6 +91,7 @@
     <path d="M20 30 L8 16 20 2" />
     </svg>
   </a>
+  <div id="carousel-index"></div>
   <a class="text-dark ml-1" href="#carouselExampleControls" role="button" data-slide="next">
     <svg id="i-chevron-right" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
     <path d="M12 30 L24 16 12 2" />
@@ -168,7 +169,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
    
-    
+    <script>
+    $('#carouselExampleControls').on('slid.bs.carousel', function () {
+  var carouselData = $(this).data('bs.carousel');
+  var currentIndex = carouselData.getActiveIndex();
+  var total = carouselData.$items.length;
+
+  var text = (currentIndex + 1) + " of " + total;
+  $('#carousel-index').text(text);
+});
+	  </script>
 	  
 	  
   </body>
