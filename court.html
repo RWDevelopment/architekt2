@@ -171,7 +171,7 @@ $('#carouselExampleControls').on('slide.bs.carousel', function () {
   var total = $("#carouselExampleControls").lenght();
 	
   var currentItem = $("#carouselExampleControls .item.active" );
-  var currentIndex = $(#carouselExampleControls .item').index(currentItem) + 1;
+  var currentIndex = $("#carouselExampleControls .item").index(currentItem) + 1;
 
   var text = (currentIndex + 1) + " of " + total;
   $('#num').text(text);
