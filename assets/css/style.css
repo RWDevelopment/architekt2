@@ -177,5 +177,5 @@ h1,h2,h3,h4 {font-family: 'Geomanist Black'}
  transform: translate3d(0, 0, 0);
 }
 
-.carousel-item img {max-height:600px;}
+.carousel-item img {max-height:580px;}
 .carousel-caption-below {color:#000;position:relative;left:auto;right:auto;}
