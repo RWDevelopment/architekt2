@@ -172,7 +172,7 @@ $('#num').html(''+currentIndex+'/'+totalItems+'');
 
 
 $('#carouselExampleControls').on('slide.bs.carousel', function () {
-   currentIndex = $('div.active').index() + 1;
+   currentIndex = $('carousel-item.active').index() + 1;
    $('#num').html(''+currentIndex+'/'+totalItems+'');
 })	    
 	    
