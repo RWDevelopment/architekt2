@@ -167,14 +167,17 @@
    
     <script>
 var total = $("#carouselExampleControls carousel-item").length;
+var currentIndex = $("#carouselExampleControls .carousel-item").index(currentItem) +1;
+var text = (currentIndex +1) + " of " + total;
+$('#num').text(text);
 	    
 $('#carouselExampleControls').on('slide.bs.carousel', function () {
-  
+  var total = $("#carouselExampleControls carousel-item").length;
 	
   var currentItem = $("#carouselExampleControls .carousel-item.active" );
-  var currentIndex = $("#carouselExampleControls .carousel-item").index(currentItem);
+  var currentIndex = $("#carouselExampleControls .carousel-item").index(currentItem) +1;
 
-  var text = (currentIndex) + " of " + total;
+  var text = (currentIndex +1) + " of " + total;
   $('#num').text(text);
 });
 	    
