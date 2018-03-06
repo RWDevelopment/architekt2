@@ -15,7 +15,7 @@ h1,h2,h3,h4 {font-family: 'Geomanist Black'}
 
 .bg-gray {background:#ccc;}
 #pills-tab  .nav-item .active {color: #000; background:transparent;}
-#pills-tab  .nav-link .active .show {color: #000;}
+#pills-tab  .nav-item .active .show {color: #000;}
 .opaque-overlay {
   overflow: hidden;
   position: relative; 
