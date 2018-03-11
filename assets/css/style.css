@@ -183,7 +183,7 @@ h1,h2,h3,h4 {font-family: 'Geomanist Black'}
 
 p .lead {
   
-    @include media-breakpoint-down(sm) { 
+    @include media-breakpoint-down(md) { 
         font-size:14px !important;
     }
  
