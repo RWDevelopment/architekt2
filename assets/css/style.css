@@ -180,6 +180,9 @@ h1,h2,h3,h4 {font-family: 'Geomanist Black'}
 .carousel-item img {max-height:580px;}
 .carousel-caption-below {color:#000;position:relative;left:auto;right:auto;}
 
+.carousel-about .carousel-item {
+ height:200px;
+}
 
 p .lead {
   
