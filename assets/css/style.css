@@ -181,7 +181,7 @@ h1,h2,h3,h4 {font-family: 'Geomanist Black'}
 .carousel-caption-below {color:#000;position:relative;left:auto;right:auto;}
 
 
-.lead {
+p .lead {
   
     @include media-breakpoint-down(sm) { 
         font-size:14px !important;
