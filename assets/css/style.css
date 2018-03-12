@@ -11,7 +11,7 @@ h1,h2,h3,h4 {font-family: 'Geomanist Black'}
 .slogan {font-family: 'Geomanist Medium'}
 .nav,.title,h5 {font-family: 'Geomanist Regular'}
 .text {font-family: 'Geomanist Light Italic'}
-.menu {font-family: 'Geomanist Regular'}
+.menu {font-family: 'Geomanist Light'; letter-spacing:1px;}
 .menu .active {font-family: 'Geomanist Regular'; font-weight:bold;}
 
 .bg-gray {background:#ccc;}
