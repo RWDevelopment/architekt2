@@ -13,6 +13,8 @@ h1,h2,h3,h4 {font-family: 'Geomanist Black'}
 .text {font-family: 'Geomanist Light Italic'}
 .menu {font-family: 'Geomanist Light'}
 .menu .active {font-family: 'Geomanist Regular'; font-weight:bold;}
+.menu a {color:#000;}
+.menu a:hover {text-decoration:none;}
 
 .bg-gray {background:#ccc;}
 #pills-tab  .nav-item {}
