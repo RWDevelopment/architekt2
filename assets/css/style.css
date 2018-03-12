@@ -9,9 +9,10 @@ body > * {
 body {font-family: 'Geomanist Light'}
 h1,h2,h3,h4 {font-family: 'Geomanist Black'}
 .slogan {font-family: 'Geomanist Medium'}
-.nav,.title,h5,.menu {font-family: 'Geomanist Regular'}
+.nav,.title,h5 {font-family: 'Geomanist Regular'}
 .text {font-family: 'Geomanist Light Italic'}
-.menu .active {font-weight:bold;}
+.menu {font-family: 'Geomanist Light'}
+.menu .active {font-family: 'Geomanist Regular'; font-weight:bold;}
 
 .bg-gray {background:#ccc;}
 #pills-tab  .nav-item {}
