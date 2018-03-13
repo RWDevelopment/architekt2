@@ -188,9 +188,13 @@ $('#carouselExampleControl').on('slide.bs.carousel', function () {
 		  
 $('#carouselExampleControls').on('slide.bs.carousel', function () {
 var total = $('#carouselExampleControls > .carousel-item').lenght;
- var current = $('.carousel-item .active').data("id");
 	
-  var text = (current) + " / " + total;
+var activeSlide = $('#carouselExampleControls').find('.active');
+var id = activeSlide.data('id');	
+	
+	
+	
+  var text = (id) + " / " + total;
   $('#num').text(text);
 }); 
 		  
