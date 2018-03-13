@@ -187,12 +187,14 @@ $('#carouselExampleControl').on('slide.bs.carousel', function () {
 	  <script>
 		  
 $('#carouselExampleControls').on('slide.bs.carousel', function (e) {
+var total = $("#carouselExampleControls carousel-item").size;
   // current index
   var current = e.from;
   // next index
   var next = e.to;
-  
-  $('#num').text(current + 1);
+	
+  var text = (current +1) + " / " + total;
+  $('#num').text(text);
 }); 
 		  
 		  
