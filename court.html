@@ -188,7 +188,7 @@ $('#carouselExampleControl').on('slide.bs.carousel', function () {
 		  
 $('#carouselExampleControls').on('slide.bs.carousel', function (e) {
 var total = $('#carouselExampleControls > carousel-item').lenght;
- var current = e.data("id");
+ var current = $(this).data("id");
 	
   var text = (current) + " / " + total;
   $('#num').text(text);
