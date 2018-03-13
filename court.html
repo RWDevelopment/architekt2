@@ -188,9 +188,9 @@ $('#carouselExampleControl').on('slide.bs.carousel', function () {
 		  
 $('#carouselExampleControls').on('slide.bs.carousel', function (e) {
   // current index
-  var current = e.from.index();
+  var current = e.from;
   // next index
-  var next = e.to.index()
+  var next = e.to;
   
   $('#num').text(current);
 }); 
