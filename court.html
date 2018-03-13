@@ -188,18 +188,11 @@ $('#carouselExampleControl').on('slide.bs.carousel', function () {
 		  
 var totalItems = $('.carousel-item').length;
 var currentIndex = $('.carousel-item.active').index() + 1;
-$('#num').text(''+currentIndex+'/'+totalItems+'');		  
+$('#num').text(''+currentIndex+' / '+totalItems+'');		  
 		  
 $('#carouselExampleControls').on('slide.bs.carousel', function () {
-
-	
-var activeSlide = $('#carouselExampleControls').find('.active');
-var id = activeSlide.data('id');	
-	
-	
-	
-  var text = (id) + " / " + total;
-  $('#num').text(text);
+currentIndex = $('.carousel-item.active').index() + 1;
+$('#num').html(''+currentIndex+' / '+totalItems+'');
 }); 
 		  
 		  
