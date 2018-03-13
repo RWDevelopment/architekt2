@@ -190,7 +190,7 @@ var totalItems = $('.carousel-item').length;
 var currentIndex = $('.carousel-item.active').index() + 1;
 $('#num').text(''+currentIndex+' / '+totalItems+'');		  
 		  
-$('#carouselExampleControls').on('slide.bs.carousel', function () {
+$('#carouselExampleControls').on('slid.bs.carousel', function () {
 currentIndex = $('.carousel-item.active').index() + 1;
 $('#num').html(''+currentIndex+' / '+totalItems+'');
 }); 
