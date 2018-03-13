@@ -184,6 +184,21 @@ $('#carouselExampleControls').on('slide.bs.carousel', function () {
 	    
 	  </script>
 	  
+	  <script>
+		  
+$('#carouselExampleControls').on('slide.bs.carousel', function (e) {
+  // current index
+  var current = e.from.index();
+  // next index
+  var next = e.to.index()
+  
+  $('#num').text(current);
+}  
+		  
+		  
+		  
+	  </script>
+	  
 	  
   </body>
 </html>
