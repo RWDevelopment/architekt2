@@ -16,6 +16,8 @@ h1,h2,h3,h4 {font-family: 'Geomanist Black'}
 .menu a {color:#000;}
 .menu a:hover {text-decoration:none;}
 
+#num {font-size:14px;}
+
 .bg-gray {background:#ccc;}
 #pills-tab  .nav-item {}
 #pills-tab .nav-item .active {font-weight:bold; background:transparent;}
