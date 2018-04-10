@@ -137,7 +137,11 @@
           q.preventDefault();
           theslide = $(this).attr('data-to')-1;
           $('#carouselExampleControls').carousel(theslide);
-	  $('#projects').removeClass('invisible');
+	
+          setTimeout(function(){
+          $('#projects').removeClass('invisible');
+          }, 800);	
+		
         });        
     </script>
 	  
