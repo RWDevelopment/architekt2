@@ -16,8 +16,8 @@ h1,h2,h3,h4 {font-family: 'Geomanist Black'}
 .menu a {color:#000;}
 .menu a:hover {text-decoration:none;}
 
-.menu-left {font-family: 'Geomanist Light';font-size:13px;}
-.menu-left .active {font-family: 'Geomanist Regular'; font-weight:bold;}
+.menu-left {font-family: 'Geomanist Medium';font-size:13px;}
+.menu-left .active {font-weight:bold;}
 .menu-left a {color:#000;}
 .menu-left a:hover {text-decoration:none;}
 
