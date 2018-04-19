@@ -153,7 +153,7 @@ h1,h2,h3,h4 {font-family: 'Geomanist Black'}
   right: 100%;
   bottom: 0;
   background: #000;
-  height: 2px;
+  height: 1px;
   -webkit-transition-property: right;
   transition-property: right;
   -webkit-transition-duration: 0.3s;
